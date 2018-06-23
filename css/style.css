@@ -51,3 +51,20 @@ body{
 header img{
     max-width: 100px;
 }
+@media all and (max-width: 1024px)
+{
+    #preto
+    {
+        display: none;
+    }
+    section
+    {
+        display: block;
+    }
+    #competences, #formation, #experience{
+        display: block;
+        max-width: 99.5%;
+        margin: 10px;
+    }
+
+}
