@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Lobster";
+    src: url(font-face/Lobster/Lobster-Regular.ttf);
+    font-weight: bold;
+}
+body
+{
+    margin: 0 0 0 5px;
+    background-image: url("../img/back.jpeg");
+}
+
+li ul
+{
+    color: gray;
+}
+.center
+{
+    text-align: center;
+}
+h1
+{
+    font-family: "Lobster", cursive;
+}
+h2{
+    color: brown;
+}
+img
+{
+    float: right;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px black;
+    margin: 0 15px 0 10px;
+}
+#competences, #formation, #experience{
+    display: inline-block;
+    vertical-align: top;
+    max-width: 31%;
+    margin: 10px;
+}
+#preto{
+    display: block;
+    min-width: 7%;
+    background-image: url(../img/coluna.png);
+    border-radius: 10px;
+    margin: 10px 10px 0 10px;
+}
+body{
+    display: flex;
+}
+header img{
+    max-width: 100px;
+}
